@@ -9,3 +9,8 @@ header {
 header.index {
     background-color:aquamarine;
 }
+
+header h1 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 250%;
+}
