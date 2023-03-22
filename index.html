@@ -17,7 +17,13 @@
     <form action="#" method="post">
         <p>Nombre: <input type="text" name="nombre"></p>
         <p>Apellidos: <input type="text" name="ape" size="15" maxlength="15"></p>
-        <p>Localidad: <input type="text" name="localidad" size="18" minlength="2"></p>
+        <p>Provincias:<input list="listaUsb"></p>
+        <datalist id="listaUsb">
+            <option value="8">
+            <option value="16">
+            <option value="32">
+            <option value="64">
+        </datalist>
     </form>
 
 
