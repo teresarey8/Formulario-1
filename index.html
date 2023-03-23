@@ -50,15 +50,22 @@
         </label>
         <br>
         <labelç>Edad: <input type="number" name="edad" min="18" max="50" placeholder="18-50"></label>
-        <br>
-        <label>email: <input type="email" name="correo" multiple></label>
-        <br>
-        <label><input type="date" name="fecha de nacimiento" value="2023-03-23" /></label>
-        <br>
-        <label><input type="tel" name="telefono" /></label>
-        <br>
-        <label><textarea name="area" rows="4" minlength="5" maxlength="200" placeholder="Describe tu experiencia"></textarea></label>
-        <br>
+            <label>email: <input type="email" name="correo" multiple></label>
+            <input type="date" name="fecha de nacimiento" value="2023-03-23" />
+            <input type="tel" name="telefono" />
+            <textarea name="area" rows="4" minlength="5" maxlength="200"
+                placeholder="Describe tu experiencia"></textarea>
+            <label for="especialidad">Elije una especialidad:</label>
+
+            <select name="Especialidad" id="Especialidad">
+                <option value="Diseño de videojuegos">Diseño de videojuegos</option>
+                <option value="Guión y Diseño Narrativo en Videojuegos">Guión y Diseño Narrativo en Videojuegos</option>
+                <option value="Concept Art para Videojuegos">Concept Art para Videojuegos</option>
+                <option value="Desarrollo de Videojuegos">Desarrollo de Videojuegos</option>
+                <option value="Animación de Videojuegos">Animación de Videojuegos</option>
+                <option value="Programación de Videojuegos">Programación de Videojuegos</option>
+            </select>
+
     </form>
 </body>
 
