@@ -68,3 +68,7 @@ form {
 .banner-izquierdo {
     left: 0;
 }
+
+.banner img {
+    max-width: 100%;
+}
